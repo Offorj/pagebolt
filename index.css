@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid re/d;
  }
  body{
     font-family: "poppins" sans-serif;
@@ -21,7 +21,7 @@ font-family: poppins;
  }
  .container{
     width: 100%;
-    min-height: 10000px;
+    min-height: 100px;
     /* border: 1px solid black; */
     font-family: poppins;
   
@@ -150,6 +150,8 @@ color: #36b5fa;
     color: white;
     border-radius: 30px;
     font-weight: bolder;
+    /* border: 1px solid red; */
+    margin-left: 30px;
 }
 .btn:hover{
     background-color: #149be4;
@@ -172,6 +174,8 @@ height: 100%;
 /* border: 1px solid black; */
 }
 .Rev h1{
+    
+    padding-left: 30px;
     font-size: 30px;
     line-height: 35px;
     font-family: poppins;
@@ -181,7 +185,9 @@ height: 100%;
     font-family: poppins;
     padding-top: 20px;
     width: 90%;
+    margin: auto;
 }
+
 .rev-hero{
 
     background: url("../images/Mobile-App-Revolutionize-BG.webp");
@@ -195,6 +201,7 @@ height: 100%;
     /* margin-top: 10vh; */
     position: relative;
     z-index: -999;
+    margin-top: 50px;
   
     /* border: 1px solid green; */
   }
@@ -240,6 +247,7 @@ height: 100%;
         display: flex;
         flex-direction: column;
         font-family: poppins;
+        margin-top: 50px;
     
     }
     .wave2{
@@ -251,12 +259,14 @@ height: 100%;
         font-family: poppins;
         font-size: 30px;
         line-height: 35px;
+        padding-left: 30px;
 
     }
     .wave2 p{
         width: 95%;
         font-size: 15px;
         padding-top: 25px;
+        margin: auto;
         
     }
     .words{
@@ -346,12 +356,17 @@ height: 100%;
     .Unlimited h1{
       color: #273f55;
       font-family: poppins;
+      padding-left: 30px;
+
     }
     .Unlimited p{
+        width: 90%;
+        /* border: 2px solid green; */
         font-size: 15px;
         font-family: poppins;
         margin-top: 20px;
         color: #273f55;
+        margin: auto;
 
     }
 
@@ -534,6 +549,7 @@ height: 100%;
        
     }
     .part5 h1{
+        margin: auto;
         font-family: poppins;
         text-align: center;
         width: 90%;
@@ -659,7 +675,7 @@ height: 100%;
         font-size: 26px;
         margin-right: 140px;
         padding-top: 50px;
-        padding-left: 40px;
+        padding-left: 25px;
         
     }
     .part61{
@@ -775,16 +791,21 @@ height: 100%;
     .display1{
         width: 100%;
         height: 500px;
-        /* border: 1px solid red; */
+        /* border: 5px solid red; */
         background-image: url(images/Mobile-App-Hero-BG-2.webp);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
+        align-items: center;
+        margin-top: 80px;
+        padding-left: 30px;
     }
     
    
     .display1 img{
         width: 90%;
+        
+    
     }
     .app1{
         display: flex;
@@ -1020,11 +1041,17 @@ height: 100%;
     
     width: 100%;
     height: 60%;
-    /* border: 1px solid red; */
+    /* border: 10px solid red; */
+   
+  
 }
 .wave img{
     width: 55%;
-    margin-left: 300px;
+    /* border: 10px solid red; */
+    margin-left: 240px;
+    
+   
+    
 }
 
 .smallbox{
@@ -1092,11 +1119,14 @@ height: 100%;
     font-size: 55px;
     line-height: 55px;
     color: #273f55;
+    padding-right: 100px;
+    /* margin-right: 175px; */
   }
   .Rev p{
     font-size: 15px;
     width: 70%;
     color: #273f55;
+    margin-right: 143px;
   }
   .btn{
     /* border: 1px solid black; */
@@ -1367,7 +1397,7 @@ padding-left: 40px;
     font-size: 50px;
     color: white;
     line-height: 58px;
-    padding-left: 350px;
+    /* padding-left: 350px; */
     position: relative;
     top: 130px;
     
